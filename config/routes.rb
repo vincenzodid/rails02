@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   # (Controller home, azione index)
   get '/home/index'
   root 'home#index'
+  get '/home/chi_siamo'
 end
